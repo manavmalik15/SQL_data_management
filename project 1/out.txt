@@ -1,0 +1,175 @@
+Project 1: Chicago Traffic Camera Analysis
+CS 341, Spring 2025
+
+This application allows you to analyze various
+aspects of the Chicago traffic camera database.
+
+General Statistics:
+  Number of Red Light Cameras: 365
+  Number of Speed Cameras: 184
+  Number of Red Light Camera Violation Entries: 998,470
+  Number of Speed Camera Violation Entries: 408,256
+  Range of Dates in the Database: 2014-07-01 - 2024-11-28
+  Total Number of Red Light Camera Violations: 6,216,244
+  Total Number of Speed Camera Violations: 16,767,367
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: Chicago
+  Red Light Cameras:
+     1783 : 4800 W CHICAGO AVENUE (41.89511222, -87.74593243)
+     1814 : 3000 W CHICAGO AVENUE (41.89570452, -87.70221852)
+     1943 : 2400 W CHICAGO AVE (41.89585104, -87.68696893)
+     1963 : 100 W CHICAGO AVENUE (41.89674435, -87.63132125)
+     1964 : 100 W CHICAGO AVENUE (41.89674435, -87.63132125)
+     1973 : 5600 W CHICAGO AVENUE (41.89496229, -87.76546079)
+     1983 : 4000 W CHICAGO AVENUE (41.89547675, -87.72614436)
+     2461 : 7900 S SOUTH CHICAGO AVE (41.7513397, -87.58563227)
+     2571 : 7060 S SOUTH CHICAGO AVE (41.76666063, -87.60689476)
+  Speed Cameras:
+     9107 : 4041 W CHICAGO AVE (41.89522799, -87.72771533)
+     9108 : 4040 W CHICAGO AVE (41.89544862, -87.72765847)
+     9133 : 19 W CHICAGO AVE (41.89655611, -87.6290259)
+     9139 : 14 W CHICAGO AVE (41.89677913, -87.62878125)
+     9180 : 7157 S SOUTH CHICAGO AVE (41.76477543, -87.60382768)
+     9184 : 7122 S SOUTH CHICAGO AVE (41.76530134, -87.60498537)
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: illinois
+  Red Light Cameras:
+  Speed Cameras:
+     9126 : 319 E ILLINOIS ST (41.8909101, -87.61934752)
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: There are no cameras located on that street.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: Park
+  Red Light Cameras:
+     1093 : 1300 W IRVING PARK ROAD (41.95448757, -87.6622935)
+     1153 : 1600 W IRVING PARK ROAD (41.95437933, -87.66919912)
+     1163 : 6000 W IRVING PARK ROAD (41.95316377, -87.77684259)
+     1183 : 5600 W IRVING PARK ROAD (41.95329285, -87.76706571)
+     1233 : 2800 W IRVING PARK ROAD (41.95402908, -87.69671631)
+     1234 : 2800 W IRVING PARK ROAD (41.95402908, -87.69671631)
+     1353 : 3200 W IRVING PARK ROAD (41.95402905, -87.70807749)
+     1354 : 3200 W IRVING PARK ROAD (41.95402905, -87.70807749)
+     1421 : 2000 W DIVERSEY PARKWAY (41.93239416, -87.67817303)
+     1464 : 2000 W DIVERSEY PARKWAY (41.93239416, -87.67817303)
+     1503 : 3700 W IRVING PARK ROAD (41.95368727, -87.71929788)
+     1533 : 5200 W IRVING PARK ROAD (41.953378, -87.757317)
+     1534 : 5200 W IRVING PARK ROAD (41.953378, -87.757317)
+     1574 : 4000 W IRVING PARK RD (41.95375687, -87.72769851)
+     1623 : 1600 W DIVERSEY PARKWAY (41.93244536, -87.66854285)
+     2763 : 4700 W IRVING PARK ROAD (41.953525, -87.745746)
+     2764 : 4700 W IRVING PARK ROAD (41.953525, -87.745746)
+  Speed Cameras:
+     9050 : 5454 W IRVING PARK (41.95332954, -87.76426726)
+     9079 : 2705 W IRVING PARK (41.95387526, -87.69620409)
+     9080 : 2712 W IRVING PARK (41.95409266, -87.6965965)
+     9083 : 6226 W IRVING PARK RD (41.95307483, -87.78282554)
+     9095 : 1142 W IRVING PARK (41.95454087, -87.65857252)
+     9201 : 2501 W IRVING PARK RD (41.95389316, -87.69093347)
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: Madison st
+  Red Light Cameras:
+     1754 : 5600 W MADISON STREET (41.88035456, -87.76494814)
+     1903 : 3800 W MADISON STREET (41.88089727, -87.72088123)
+     2043 : 5200 W MADISON STREET (41.88048075, -87.75513043)
+     2044 : 5200 W MADISON STREET (41.88048075, -87.75513043)
+  Speed Cameras:
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: Racine
+  Red Light Cameras:
+  Speed Cameras:
+     9118 : 5420 S RACINE AVE (41.79533277, -87.65504098)
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Exiting program.
